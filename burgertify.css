@@ -1,0 +1,97 @@
+.nav {
+    background-color: #151a37;
+    width: 100%;
+    height: 125px;
+    margin: 0px;
+    display: flex; 
+    align-items: center;
+    overflow: hidden;
+    
+
+
+}
+
+body {
+    margin: 0px;
+    background: linear-gradient(0deg, rgba(21,26,56,1) 0%, rgba(69,48,117,1) 100%);
+}
+
+.logo {
+    width: 35%;
+    margin: 15PX ;
+}
+
+.lista {
+    color: white;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin: 30px;
+
+}
+
+.item {
+    display: inline-block;
+    justify-content: space-between;
+}
+
+
+.divPromocion { 
+    display: flex;
+    justify-content: center;
+    width: 700px;
+    height: 700px;
+    margin: 15px;
+}
+    
+.promocion {
+    width: 600px;
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+}
+
+.producto_Info {
+    font-family: Silkscreen;
+    display: block;
+    color: aliceblue;
+    font-size: 20px;
+    font-style: Bold;
+}
+
+.producto_Nombre {
+    font-family: PressStart2P;
+    display: block;
+    color: aliceblue;
+    font-size: 35px;
+    font-style: normal;
+}
+
+.producto_Titulo {
+    color: aliceblue;
+    font-size: 45px;
+    display: block;
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+}
+
+.contenedor_Hamburguesas {
+    display: flex;
+    justify-content: space-between;
+    margin: 100px
+;}
+
+.contenedor_Entradas {
+        display: flex;
+        justify-content: space-between;
+        margin: 100px
+;}
+
+.contenedor_Bebidas {
+    display: flex;
+    justify-content: space-between;
+    margin: 100px;
+     
+;}
